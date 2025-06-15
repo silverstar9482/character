@@ -445,7 +445,7 @@ section {
     transform-origin: left;
 }
 .tree-R {
-    background: url("./images/leaf_R.png") no-repeat top right / auto 70%;
+    background: url("./images/leaf_R.png") no-repeat top right / contain;
     right: 0;
     animation: tree-move-R 3s infinite;
     transform-origin: right;
